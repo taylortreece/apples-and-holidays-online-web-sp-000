@@ -65,7 +65,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map do |season, holiday|
-    if holiday.value == "BBQ"
+    if holiday.values == "BBQ"
       return season
     end
   end
